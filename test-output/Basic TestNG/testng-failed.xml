@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Basic TestNG]">
+  <test thread-count="5" name="Parameter Test(failed)">
+    <parameter name="password" value="5077Md1985"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.osaconsultingtech.com"/>
+    <parameter name="username" value="md.islam@osaconsultingtech.com"/>
+    <classes>
+      <class name="com.osa.TestNG_Basic">
+        <methods>
+          <include name="OSALogoTest"/>
+          <include name="OSATitleTest"/>
+          <include name="ForumLogingTest"/>
+          <include name="closeB"/>
+          <include name="openB"/>
+        </methods>
+      </class> <!-- com.osa.TestNG_Basic -->
+    </classes>
+  </test> <!-- Parameter Test(failed) -->
+</suite> <!-- Failed suite [Basic TestNG] -->
